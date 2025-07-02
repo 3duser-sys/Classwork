@@ -1,0 +1,5 @@
+x = ('Loshe')
+y = ('has a mum')
+print(x,y)
+name = input('What is your name')
+print("\nHello", name, "\nwelcome to codingal")
