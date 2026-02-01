@@ -48,6 +48,7 @@ while True:
                 else:
                     color = Fore.YELLOW
                     emoji = "😐"
+                print(f"{sentiment_type}")
 
                 print(f"{idx}. {color}{emoji} {text} "
                       f"(Polarity: {polarity:.2f}, {sentiment_type}){Style.RESET_ALL}")
