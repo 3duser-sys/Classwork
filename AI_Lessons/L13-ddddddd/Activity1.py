@@ -79,9 +79,18 @@ def main():
         elif key == ord('t'):
             filter_type = "cartoon"
 
+        elif key == ord('l'):
+            filter_type = "lapalacian"
+        elif key == ord('o'):
+            filter_type = "original"
         elif key == ord('q'):
             break
 
+        elif key == ord('i'):
+            filter_type = "increase_red"
+
+        elif key == ord('d'):
+            filter_type = "decrease_blue"
     VidCap.release()
     cv2.destroyAllWindows()
 
